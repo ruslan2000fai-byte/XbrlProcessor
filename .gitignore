@@ -1,0 +1,48 @@
+## .NET / Visual Studio
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet packages
+*.nupkg
+**/packages/
+!**/packages/build/
+*.nuget.props
+*.nuget.targets
+
+# MSBuild binary log
+*.binlog
+
+# Rider
+.idea/
+
+# Publish profiles
+**/Properties/PublishProfiles/
+
+# dotnet test results
+TestResults/
+coverage*/
+
+# Environment / secrets
+.env
+appsettings.*.json
+!appsettings.json
+!appsettings.Development.json
